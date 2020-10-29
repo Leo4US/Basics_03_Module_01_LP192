@@ -1,0 +1,28 @@
+# Módulo 1 - 03_Basics
+  ## Basic Notions_Module_01_Vectors
+
+#1 Create a numeric vector from 1 until 100
+Tripa <- seq(1:100)
+typeof (Tripa)
+
+## Exploring vectors of different natures, which can be: character, logical, integer or double.
+
+
+#2 Create a numeric vector from 101 until 200
+Tripa2 <- seq(101:200)
+typeof(Tripa2)
+
+#3 Create a character vector repeating any word you like 20 times
+#3.1 Use a proper command for repetition ### Yep!
+Tiger <- rep('Slavery no more!', 20)
+typeof(Tiger)
+
+#4 Name your numeric vectors, using the proper command
+
+
+#5 Make a series of operations with your numeric vectors:
+#5.1 Sum them and save to a new variable
+#5.2 Subtract them and and save to a new variable
+#5.3 Use the two first vectors in a Exponentiation (squared or cubed) and save the result in two new variables
+
+#6 Post your results to Google Classroom in a text file so everyone can see
