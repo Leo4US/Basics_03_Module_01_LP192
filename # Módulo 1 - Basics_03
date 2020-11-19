@@ -22,19 +22,19 @@ typeof (my.vector)
 names(my.vector) <- c("Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado")
 my.vector
 typeof (my.vector)
-    ### a little more...
+### a little more...
 monthsweek <- c('Semana 1','Semana 2', 'Semana 3', 'Semana 4', 'Semana 5')
 typeof (monthsweek)
 names (monthsweek) <- c('Initial', 'Plan', 'Do', 'Replan', 'Monitoring')
 monthsweek
-    ### last
+### last
 my.vector2 <- c(1,2,3,4,5,6,7,8,9,10,11,12)
 my.vector2
 months <- c('janeiro','feveiro','marco', 'abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro')
 months
 names(my.vector2) <-months
 my.vector2
-    ### in this case, it is one vector naming other vector. They must have the same quantity of elements.
+### in this case, it is one vector naming other vector. They must have the same quantity of elements.
 
 #5 Make a series of operations with your numeric vectors:
 #5.1 Sum them and save to a new variable
@@ -55,7 +55,7 @@ v1-v2
 v4 <- v1-v2
 v4
 
-    ### other operations
+### other operations
 v1/v2
 v5 <- v1/v2
 v5
@@ -79,11 +79,24 @@ v8
 
 #6 Post your results to Google Classroom in a text file so everyone can see
 
+  ### extra exploration with vectors
+
+my.vector.2 <- c("b","r","a","s","i","l")
+my.vector.2
+typeof (my.vector.2)
+
+### I have tryied to apply the command typeof to a vector but it seems not possible application. Class, on the other hand, works good.
+### In the next day, I have tried again and see an error my.vector2 instead of my.vector.2. Then, I corrected.
+
+class(my.vector.2)
+str(my.vector.2)
+
+
 -------------------------------------------------------------
-
-### abaixo coloco o código do Rodrigo para servir de base.
-
----
+  
+  ### abaixo coloco o código do Rodrigo para servir de base.
+  
+  ---
   title: "Basic concepts with R (part 2)"
 author: |
   | Rodrigo Esteves de Lima-Lopes 
@@ -185,7 +198,7 @@ my.vector
 
 Vectors can be used to perform some basic operations. For example, I can add these vectors:
   
-    ```{r}
+  ```{r}
 v1 <- c(10,29,333)
 v2 <- c(57,68,702)
 v1+v2
